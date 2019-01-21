@@ -13,6 +13,7 @@ public class Car {
 	 */
 	public int SpeedUp(int append,int times) {
 		speed=speed+append*times;
+		System.out.println("helllo world");
 		return speed;
 	}
 }
