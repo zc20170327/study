@@ -8,6 +8,7 @@ public class Age {
 	 * @return
 	 */
 	public  int input() {
+		System.out.println("hello world");
 		String intString=JOptionPane.showInputDialog(null,"请输入用户的年龄","判断用户的年龄称谓演示",JOptionPane.QUESTION_MESSAGE);
 		int age=Integer.parseInt(intString);
 		age=age/10;
